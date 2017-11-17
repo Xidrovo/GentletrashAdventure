@@ -12,7 +12,7 @@ public class ShootCannon : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        InvokeRepeating("shoot", 0.5f, 0.8f);
+        InvokeRepeating("shoot", 1.0f, 0.8f);
     }
 
     private void shoot()

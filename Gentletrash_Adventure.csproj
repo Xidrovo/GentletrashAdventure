@@ -84,11 +84,15 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\applyRules.cs" />
     <Compile Include="Assets\Scripts\CannonArticulation.cs" />
     <Compile Include="Assets\Scripts\CloudCreator.cs" />
     <Compile Include="Assets\Scripts\DeathLineScript.cs" />
     <Compile Include="Assets\Scripts\garbageSetting.cs" />
+    <Compile Include="Assets\Scripts\GlobalRules.cs" />
+    <Compile Include="Assets\Scripts\health.cs" />
     <Compile Include="Assets\Scripts\IgnoreHeadSettings.cs" />
+    <Compile Include="Assets\Scripts\Options.cs" />
     <Compile Include="Assets\Scripts\ShootCannon.cs" />
   </ItemGroup>
   <ItemGroup>

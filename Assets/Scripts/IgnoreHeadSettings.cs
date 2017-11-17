@@ -1,17 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class IgnoreHeadSettings : MonoBehaviour {
 
-	// Use this for initialization
+    // Use this for initialization
+    public Text Score;
 	private void Awake () {
         Physics2D.IgnoreLayerCollision(0, 9);
 	}
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.layer == 10) {
-            Debug.Log("Se destruye y ganas 1 punto");
+            Score.text = int.Parse(Score.text) + 1 + "";
+            GlobalRules.health += 2 / GlobalRules.PLAYERS;
             Destroy(collision.gameObject);
         }
     }
