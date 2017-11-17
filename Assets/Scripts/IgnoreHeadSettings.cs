@@ -14,6 +14,11 @@ public class IgnoreHeadSettings : MonoBehaviour {
     {
         if (collision.gameObject.layer == 10) {
             Score.text = int.Parse(Score.text) + 1 + "";
+            if (this.gameObject.tag == "Kiddiecan")
+                GlobalRules.KiddieScore += 1;
+            else
+                GlobalRules.GentleScore += 1;
+
             GlobalRules.health += 2 / GlobalRules.PLAYERS;
             Destroy(collision.gameObject);
         }
