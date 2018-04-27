@@ -780,6 +780,14 @@ Prefab:
       propertyPath: Score
       value: 
       objectReference: {fileID: 192899445}
+    - target: {fileID: 1140171150239638, guid: 43cef1b7a5c82f64585c9c6c44a8f30a, type: 2}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 1481689812935274, guid: 43cef1b7a5c82f64585c9c6c44a8f30a, type: 2}
+      propertyPath: m_TagString
+      value: Kiddiecan
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 95190339814522814, guid: 43cef1b7a5c82f64585c9c6c44a8f30a, type: 2}
     - {fileID: 58662896741288796, guid: 43cef1b7a5c82f64585c9c6c44a8f30a, type: 2}

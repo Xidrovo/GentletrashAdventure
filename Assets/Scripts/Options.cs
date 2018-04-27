@@ -17,6 +17,8 @@ public class Options : MonoBehaviour {
     }
 
     public void Menu() {
+        GlobalRules.GentleScore = 0;
+        GlobalRules.KiddieScore = 0;
         EditorSceneManager.LoadSceneAsync("menu");
     }
 

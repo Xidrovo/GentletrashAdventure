@@ -8,6 +8,7 @@ public class Scores : MonoBehaviour {
     public Text kiddieScore;
 	// Use this for initialization
 	void Start () {
+        Debug.Log(GlobalRules.KiddieScore.ToString());
         gentleScore.text = GlobalRules.GentleScore.ToString();
         kiddieScore.text = GlobalRules.KiddieScore.ToString();
 	}
